@@ -32,18 +32,3 @@ h3 {
 a {
     text-decoration: none;
 }
-
-.btn {
-    background-color: $background-color-button-default;
-    font-size: $font-size-button;
-    width: $width-button;
-    color: $color-dark;
-    display: block;
-    text-align: center;
-    padding: 0.7rem 0;
-
-    &:hover {
-        background-color: $background-color-button-hover;
-        color: $color-light;
-    }
-}
