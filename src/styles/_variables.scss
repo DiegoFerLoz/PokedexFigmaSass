@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Rubik Mono One";
+  src: url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+}
+
+@font-face {
+  font-family: "MergeOne";
+  src: url(assets/MergeOne-Regular.woff) format("woff");
+}
+
+/* Color */
+$background-color-header: #fa5b43;
+$background-color-body: #494949;
+$background-color-main: #f1f1f1;
+$background-color-footer: #181818;
+
+$background-color-button-default: #494949;
+$background-color-button-hover: #e52305;
+
+$background-color-sort: #494949;
+
+$color-dark: #f1f1f1;
+$color-light: #000000;
+$color-subtle: #aeb9c7;
+
+
+/* Sizes */
+$width-header-logo: 7.5rem;
+$height-header-logo: 7.5rem;
+
+$width-button: 9.375rem;
+$height-button: 2.8125rem;
+
+
+/* Typography */
+$font-family: MergeOne, sans-serif;
+$font-family-titulo: Rubik Mono One;
+
+$font-size-h3: 1.625rem;
+$font-size-h2: 2.625rem;
+$font-size-h1: 4.25rem;
+$font-size-button: 1.25rem;
+$font-size-paragraph: 1rem;
+
+
+/* Grid */
+$grid-template-columns: repeat(12, 1fr);
+$gap: 1rem;
+
+$grid-column-start-search: 2;
+$grid-column-end-search: 7;
+
+$grid-column-start-sort: 7;
+$grid-column-end-sort: 12;
+
+
+
+
+
+
+
+
+$breakpoints: (
+  "large": "max-width: 1200px",
+  "medium": "max-width: 1000px",
+  "narrow": "max-width: 800px",
+);

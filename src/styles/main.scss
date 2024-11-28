@@ -1,0 +1,5 @@
+@use "layout";
+@use "header";
+@use "footer";
+@use "contents";
+//Solo tiene que hacer use de _layout, _card, _header, etc. De cada archivo scss de cada elemento que haya que utilizar.

@@ -1,0 +1,26 @@
+@use "globals" as *;
+
+header {
+    background-color: $background-color-header;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        img {
+            width: $width-header-logo;
+            height: $height-header-logo;
+        }
+
+        .btn {
+            &:first-child {
+                margin-bottom: 1rem;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,55 @@
+@use "globals" as *;
+
+body {
+    background-color: $background-color-body;
+    font-family: $font-family;
+}
+
+
+main {
+    background-color: $background-color-main;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+
+    .container-form {
+        width: 78%;
+        display: grid;
+        grid-template-columns: $grid-template-columns;
+        gap: $gap;
+        margin-bottom: 3rem;
+    }
+
+    input,
+    select {
+        border-color: $background-color-sort;
+        border-style: solid;
+        border-radius: 0.3rem;
+        width: 100%;
+        display: block;
+        padding: 10px;
+        font-size: $font-size-paragraph;
+    }
+
+    .search {
+        grid-column-start: $grid-column-start-search;
+        grid-column-end: $grid-column-end-search;
+
+        input {
+            margin-top: 5px;
+            background-color: $background-color-main;
+        }
+    }
+
+    .sort {
+        grid-column-start: $grid-column-start-sort;
+        grid-column-end: $grid-column-end-sort;
+
+        select {
+            margin-top: 5px;
+            background-color: $background-color-sort;
+            color: $color-dark;
+        }
+    }
+}
