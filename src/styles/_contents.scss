@@ -54,6 +54,10 @@ main {
 
     .card-grid{
         display: grid;
+        grid-template-columns: $grid-template-columns;
+        gap: $gap;
+        width: $width-card-grid;
+        text-align: center;
     }
 }
 
