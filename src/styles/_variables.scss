@@ -26,11 +26,38 @@ $color-subtle: #aeb9c7;
 
 /* Sizes */
 $width-header-logo: 7.5rem;
-$height-header-logo: 7.5rem;
-
 $width-button: 9.375rem;
+$width-main: 90%;
+$width-container: 70%;
+$width-container-form: 78%;
+$width-main-input-select: 100%;
+
+$height-header-logo: 7.5rem;
 $height-button: 2.8125rem;
 
+$border-radius-main-input-select: 0.3rem;
+
+
+
+
+
+
+
+
+
+
+
+/* Padding */
+$padding-top-main: 2rem;
+$padding-bottom-main: 4rem;
+$padding-main-input-select: 10px;
+$padding-header: 0.5rem 0;
+
+/* Margin */
+$margin-bottom-container-form: 3rem;
+$margin-top-search-input: 5px;
+$margin-top-sort-select: 5px;
+$margin-bottom-header-button-first: 1rem;
 
 /* Typography */
 $font-family: MergeOne, sans-serif;

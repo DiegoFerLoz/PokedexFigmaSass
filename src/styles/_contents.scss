@@ -8,27 +8,26 @@ body {
 
 main {
     background-color: $background-color-main;
-    width: 90%;
+    width: $width-main;
     margin: 0 auto;
-    padding-top: 2rem;
-    padding-bottom: 4rem;
+    padding-top: $padding-top-main;
+    padding-bottom: $padding-bottom-main;
 
     .container-form {
-        width: 78%;
         display: grid;
         grid-template-columns: $grid-template-columns;
         gap: $gap;
-        margin-bottom: 3rem;
+        margin-bottom: $margin-bottom-container-form;
     }
 
     input,
     select {
         border-color: $background-color-sort;
         border-style: solid;
-        border-radius: 0.3rem;
-        width: 100%;
+        border-radius: $border-radius-main-input-select;
+        width: $width-main-input-select;
         display: block;
-        padding: 10px;
+        padding: $padding-main-input-select;
         font-size: $font-size-paragraph;
     }
 
@@ -37,7 +36,7 @@ main {
         grid-column-end: $grid-column-end-search;
 
         input {
-            margin-top: 5px;
+            margin-top: $margin-top-search-input;
             background-color: $background-color-main;
         }
     }
@@ -47,9 +46,14 @@ main {
         grid-column-end: $grid-column-end-sort;
 
         select {
-            margin-top: 5px;
+            margin-top: $margin-top-sort-select;
             background-color: $background-color-sort;
             color: $color-dark;
         }
     }
+
+    .card-grid{
+        display: grid;
+    }
 }
+

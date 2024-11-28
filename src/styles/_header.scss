@@ -4,7 +4,7 @@ header {
     background-color: $background-color-header;
     display: flex;
     justify-content: space-between;
-    padding: 0.5rem 0;
+    padding: $padding-header;
 
     .container {
         display: flex;
@@ -18,7 +18,7 @@ header {
 
         .btn {
             &:first-child {
-                margin-bottom: 1rem;
+                margin-bottom: $margin-bottom-header-button-first;
             }
         }
     }
