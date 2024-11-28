@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -18,8 +19,8 @@
                 alt="Logo Pokeball">
             <h1>Pokédex</h1>
             <section>
-                <a href="" class="btn">Regístrate</a>
-                <a href="" class="btn">Iniciar Sesión</a>
+                <a href="login.html" class="btn btn-login">Regístrate</a>
+                <a href="" class="btn btn-login">Iniciar Sesión</a>
             </section>
         </div>
     </header>
@@ -32,10 +33,10 @@
             <form action="#" class="sort">
                 <label for="sort">Ordenar por:</label>
                 <select name="sort" id="sort">
-                    <option value="volvo">Nombre</option>
-                    <option value="saab">Número</option>
-                    <option value="mercedes">Peso</option>
-                    <option value="audi">Altura</option>
+                    <option>Nombre</option>
+                    <option>Número</option>
+                    <option>Peso</option>
+                    <option>Altura</option>
                 </select>
             </form>
         </section>
@@ -75,11 +76,17 @@
             </article>
         </section>
 
-        <!-- AÑADIR LAS CARDS Y ESPECIFICAR LAS FILAS DE LOS ELEMENTOS DEL GRID (POR AHORA LOS FORMULARIOS) -->
-         
     </main>
     <footer>
-
+        <div class="container">
+            <p>Pokédex - IES Azarquiel - Diego Fernández Lozano</p>
+            <div>
+                <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+                <i class="fa fa-youtube-play fa-3x" aria-hidden="true"></i>
+                <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
+                <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+            </div>
+        </div>
     </footer>
 
     <script type="module" src="/main.js"></script>

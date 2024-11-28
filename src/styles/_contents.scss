@@ -56,8 +56,40 @@ main {
         display: grid;
         grid-template-columns: $grid-template-columns;
         gap: $gap;
-        width: $width-card-grid;
         text-align: center;
+    }
+
+
+    .login-form{
+        display: grid;
+        grid-template-columns: $grid-template-columns;
+        gap: $gap;
+
+        h2{
+            grid-row-start: $grid-row-start-login-form-h2;
+            grid-column-start: $grid-column-start-login-form-h2;
+            grid-column-end: $grid-column-end-login-form-h2;
+            margin-left: $margin-left-login-form-h2;
+
+        }
+
+        fieldset{
+            grid-row-start: $grid-row-start-login-form-fieldset;
+            grid-column-start: $grid-column-start-login-form-fieldset;
+            grid-column-end: $grid-column-end-login-form-fieldset;
+        }
+
+        //Prueba con if
+        input[type="password"],input[type="email"],input[type="text"] {
+            background-color: $background-color-main;
+            margin-bottom: $margin-bottom-login-form-input;
+        }
+    }
+
+    fieldset{
+        padding: $padding-fieldset;
+        border-radius: $border-radius-fieldset;
+        border-width: $border-width-fieldset;
     }
 }
 

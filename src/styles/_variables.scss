@@ -28,33 +28,43 @@ $color-subtle: #aeb9c7;
 
 /* Sizes */
 $width-header-logo: 7.5rem;
-$width-button: 9.375rem;
+$width-button-login: 9.375rem;
+$width-button-form: 5.3125rem;
 $width-main: 90%;
-$width-container: 70%;
+$width-container: 75%;
 $width-container-form: 78%;
 $width-main-input-select: 100%;
-$width-card-grid: 75%;
-$width-card-img: 90%;  //180px
+$width-card-img: 90%;
+$width-footer-container: 70%;
+$width-header-container: 70%;
 
 $height-header-logo: 7.5rem;
 $height-button: 2.8125rem;
 
 $border-radius-main-input-select: 0.3rem;
+$border-radius-fieldset: 2rem;
 
+$border-width-fieldset: 4px;
 
 /* Padding */
 $padding-top-main: 2rem;
 $padding-bottom-main: 4rem;
 $padding-main-input-select: 10px;
 $padding-header: 0.5rem 0;
-$padding-button: 0.7rem 0;
+$padding-button-login: 0.7rem 0;
+$padding-button-form: 0.4rem 0;
 $padding-card: 1rem;
+$padding-fieldset: 3rem 5rem;
+$padding-footer: 4rem 0;
 
 /* Margin */
 $margin-bottom-container-form: 3rem;
 $margin-top-search-input: 5px;
 $margin-top-sort-select: 5px;
 $margin-bottom-header-button-first: 1rem;
+$margin-left-login-form-h2: 1rem;
+$margin-bottom-login-form-input: 2rem;
+$margin-left-footer-i: 24px;
 
 /* Typography */
 $font-family: MergeOne, sans-serif;
@@ -111,12 +121,24 @@ $grid-row-end-card7: 3;
 $grid-row-start-card8: 2;
 $grid-row-end-card8: 3;
 
+$grid-column-start-login-form-h2: 3;
+$grid-column-end-login-form-h2: 6;
+$grid-column-start-login-form-fieldset: 3;
+$grid-column-end-login-form-fieldset: 11;
 
+$grid-row-start-login-form-h2: 1;
+$grid-row-start-login-form-fieldset: 2;
 
 
 
 $breakpoints: (
-  "large": "max-width: 1200px",
-  "medium": "max-width: 1000px",
-  "narrow": "max-width: 800px",
+  "large": "max-width: 1154px",
+
 );
+
+
+// $breakpoints: (
+//   "large": "max-width: 1200px",
+//   "medium": "max-width: 1000px",
+//   "narrow": "max-width: 800px",
+// );

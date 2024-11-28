@@ -3,14 +3,22 @@
 .btn {
     background-color: $background-color-button-default;
     font-size: $font-size-button;
-    width: $width-button;
     color: $color-dark;
     display: block;
     text-align: center;
-    padding: $padding-button;
 
     &:hover {
         background-color: $background-color-button-hover;
         color: $color-light;
     }
+}
+
+.btn-login{
+    padding: $padding-button-login;
+    width: $width-button-login;
+}
+
+.btn-form{
+    padding: $padding-button-form;
+    width: $width-button-form;
 }
