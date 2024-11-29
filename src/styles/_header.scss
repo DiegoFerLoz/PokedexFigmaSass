@@ -12,6 +12,10 @@ header {
         align-items: center;
         width: $width-header-container;
 
+        @include respond-to("large") {
+            width: $width-header-container-large;
+        }
+
         img {
             width: $width-header-logo;
             height: $height-header-logo;

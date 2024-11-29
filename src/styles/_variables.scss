@@ -31,12 +31,15 @@ $width-header-logo: 7.5rem;
 $width-button-login: 9.375rem;
 $width-button-form: 5.3125rem;
 $width-main: 90%;
+$width-main-large: 100%;
 $width-container: 75%;
 $width-container-form: 78%;
 $width-main-input-select: 100%;
 $width-card-img: 90%;
 $width-footer-container: 70%;
+$width-footer-container-large: 85%;
 $width-header-container: 70%;
+$width-header-container-large: 85%;
 
 $height-header-logo: 7.5rem;
 $height-button: 2.8125rem;
@@ -81,10 +84,13 @@ $font-size-paragraph: 1rem;
 $grid-template-columns: repeat(12, 1fr);
 $gap: 1rem;
 
-$grid-column-search: #{2 / 7};
+$grid-column-search-huge: #{2 / 7};
+$grid-column-search-large: #{1 / 7};
 
-$grid-column-sort: #{7 / 12};
+$grid-column-sort-huge: #{7 / 12};
+$grid-column-sort-large: #{7 / 13};
 
+/* Huge Grid Variables */
 $grid-column-card1-huge: #{1 / 4};
 $grid-column-card2-huge: #{4 / 7};
 $grid-column-card3-huge: #{7 / 10};
@@ -94,15 +100,16 @@ $grid-column-card6-huge: #{4 / 7};
 $grid-column-card7-huge: #{7 / 10};
 $grid-column-card8-huge: #{10 / 13};
 
-$grid-column-card1-large: #{1 / 4};
-$grid-column-card2-large: #{4 / 7};
-$grid-column-card3-large: #{7 / 10};
-$grid-column-card4-large: #{10 / 13};
-$grid-column-card5-large: #{1 / 4};
-$grid-column-card6-large: #{4 / 7};
-$grid-column-card7-large: #{7 / 10};
-$grid-column-card8-large: #{10 / 13};
+$grid-column-card1-large: #{1 / 5};
+$grid-column-card2-large: #{5 / 9};
+$grid-column-card3-large: #{9 / 13};
+$grid-column-card4-large: #{1 / 5};
+$grid-column-card5-large: #{5 / 9};
+$grid-column-card6-large: #{9 / 13};
+$grid-column-card7-large: #{1 / 5};
+$grid-column-card8-large: #{5 / 9};
 
+/* Large GridVariables */
 $grid-row-card1-huge: #{1 / 2};
 $grid-row-card2-huge: #{1 / 2};
 $grid-row-card3-huge: #{1 / 2};
@@ -115,14 +122,15 @@ $grid-row-card8-huge: #{2 / 3};
 $grid-row-card1-large: #{1 / 2};
 $grid-row-card2-large: #{1 / 2};
 $grid-row-card3-large: #{1 / 2};
-$grid-row-card4-large: #{1 / 2};
+$grid-row-card4-large: #{2 / 3};
 $grid-row-card5-large: #{2 / 3};
 $grid-row-card6-large: #{2 / 3};
-$grid-row-card7-large: #{2 / 3};
-$grid-row-card8-large: #{2 / 3};
+$grid-row-card7-large: #{3 / 4};
+$grid-row-card8-large: #{3 / 4};
 
 $grid-column-login-form-h2: #{3 / 6};
 $grid-column-login-form-fieldset-huge: #{3 / 11};
+$grid-column-login-form-fieldset-large: #{2 / 12};
 
 $grid-row-start-login-form-h2: 1;
 $grid-row-start-login-form-fieldset: 2;
@@ -131,7 +139,7 @@ $grid-row-start-login-form-fieldset: 2;
 
 $breakpoints: (
   "large": "max-width: 1154px",
-
+  "medium": "max-width: 800px",
 );
 
 

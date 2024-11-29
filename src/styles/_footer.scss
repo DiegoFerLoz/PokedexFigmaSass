@@ -11,6 +11,10 @@ footer {
         align-items: center;
         padding: $padding-footer;
 
+        @include respond-to("large") {
+            width: $width-footer-container-large;
+        }
+
         i {
             margin-left: $margin-left-footer-i;
         }

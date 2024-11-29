@@ -6,10 +6,6 @@
         background-color: $background-color-card;
         padding: $padding-card;
 
-        @include respond-to("large") {
-            background-color: white;
-        }
-
         img {
             width: $width-card-img;
 
@@ -21,40 +17,80 @@
     .card:nth-child(1) {
         grid-column: $grid-column-card1-huge;
         grid-row: $grid-row-card1-huge;
+
+        @include respond-to("large") {
+            grid-column: $grid-column-card1-large;
+            grid-row: $grid-row-card1-large;
+        }
     }
 
     .card:nth-child(2) {
         grid-column: $grid-column-card2-huge;
         grid-row: $grid-row-card2-huge;
+
+        @include respond-to("large") {
+            grid-column: $grid-column-card2-large;
+            grid-row: $grid-row-card2-large;
+        }
     }
 
     .card:nth-child(3) {
         grid-column: $grid-column-card3-huge;
         grid-row: $grid-row-card3-huge;
+
+        @include respond-to("large") {
+            grid-column: $grid-column-card3-large;
+            grid-row: $grid-row-card3-large;
+        }
     }
 
     .card:nth-child(4) {
         grid-column: $grid-column-card4-huge;
         grid-row: $grid-row-card4-huge;
+
+        @include respond-to("large") {
+            grid-column: $grid-column-card4-large;
+            grid-row: $grid-row-card4-large;
+        }
     }
 
     .card:nth-child(5) {
         grid-column: $grid-column-card5-huge;
         grid-row: $grid-row-card5-huge;
+
+        @include respond-to("large") {
+            grid-column: $grid-column-card5-large;
+            grid-row: $grid-row-card5-large;
+        }
     }
 
     .card:nth-child(6) {
         grid-column: $grid-column-card6-huge;
         grid-row: $grid-row-card6-huge;
+
+        @include respond-to("large") {
+            grid-column: $grid-column-card6-large;
+            grid-row: $grid-row-card6-large;
+        }
     }
 
     .card:nth-child(7) {
         grid-column: $grid-column-card7-huge;
         grid-row: $grid-row-card7-huge;
+
+        @include respond-to("large") {
+            grid-column: $grid-column-card7-large;
+            grid-row: $grid-row-card7-large;
+        }
     }
 
     .card:nth-child(8) {
         grid-column: $grid-column-card8-huge;
         grid-row: $grid-row-card8-huge;
+
+        @include respond-to("large") {
+            grid-column: $grid-column-card8-large;
+            grid-row: $grid-row-card8-large;
+        }
     }
 }
