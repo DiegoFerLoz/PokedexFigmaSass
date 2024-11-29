@@ -81,50 +81,48 @@ $font-size-paragraph: 1rem;
 $grid-template-columns: repeat(12, 1fr);
 $gap: 1rem;
 
-$grid-column-start-search: 2;
-$grid-column-end-search: 7;
+$grid-column-search: #{2 / 7};
 
-$grid-column-start-sort: 7;
-$grid-column-end-sort: 12;
+$grid-column-sort: #{7 / 12};
 
-$grid-column-start-card1: 1;
-$grid-column-end-card1: 4;
-$grid-column-start-card2: 4;
-$grid-column-end-card2: 7;
-$grid-column-start-card3: 7;
-$grid-column-end-card3: 10;
-$grid-column-start-card4: 10;
-$grid-column-end-card4: 13;
-$grid-column-start-card5: 1;
-$grid-column-end-card5: 4;
-$grid-column-start-card6: 4;
-$grid-column-end-card6: 7;
-$grid-column-start-card7: 7;
-$grid-column-end-card7: 10;
-$grid-column-start-card8: 10;
-$grid-column-end-card8: 13;
+$grid-column-card1-huge: #{1 / 4};
+$grid-column-card2-huge: #{4 / 7};
+$grid-column-card3-huge: #{7 / 10};
+$grid-column-card4-huge: #{10 / 13};
+$grid-column-card5-huge: #{1 / 4};
+$grid-column-card6-huge: #{4 / 7};
+$grid-column-card7-huge: #{7 / 10};
+$grid-column-card8-huge: #{10 / 13};
 
-$grid-row-start-card1: 1;
-$grid-row-end-card1: 2;
-$grid-row-start-card2: 1;
-$grid-row-end-card2: 2;
-$grid-row-start-card3: 1;
-$grid-row-end-card3: 2;
-$grid-row-start-card4: 1;
-$grid-row-end-card4: 2;
-$grid-row-start-card5: 2;
-$grid-row-end-card5: 3;
-$grid-row-start-card6: 2;
-$grid-row-end-card6: 3;
-$grid-row-start-card7: 2;
-$grid-row-end-card7: 3;
-$grid-row-start-card8: 2;
-$grid-row-end-card8: 3;
+$grid-column-card1-large: #{1 / 4};
+$grid-column-card2-large: #{4 / 7};
+$grid-column-card3-large: #{7 / 10};
+$grid-column-card4-large: #{10 / 13};
+$grid-column-card5-large: #{1 / 4};
+$grid-column-card6-large: #{4 / 7};
+$grid-column-card7-large: #{7 / 10};
+$grid-column-card8-large: #{10 / 13};
 
-$grid-column-start-login-form-h2: 3;
-$grid-column-end-login-form-h2: 6;
-$grid-column-start-login-form-fieldset: 3;
-$grid-column-end-login-form-fieldset: 11;
+$grid-row-card1-huge: #{1 / 2};
+$grid-row-card2-huge: #{1 / 2};
+$grid-row-card3-huge: #{1 / 2};
+$grid-row-card4-huge: #{1 / 2};
+$grid-row-card5-huge: #{2 / 3};
+$grid-row-card6-huge: #{2 / 3};
+$grid-row-card7-huge: #{2 / 3};
+$grid-row-card8-huge: #{2 / 3};
+
+$grid-row-card1-large: #{1 / 2};
+$grid-row-card2-large: #{1 / 2};
+$grid-row-card3-large: #{1 / 2};
+$grid-row-card4-large: #{1 / 2};
+$grid-row-card5-large: #{2 / 3};
+$grid-row-card6-large: #{2 / 3};
+$grid-row-card7-large: #{2 / 3};
+$grid-row-card8-large: #{2 / 3};
+
+$grid-column-login-form-h2: #{3 / 6};
+$grid-column-login-form-fieldset-huge: #{3 / 11};
 
 $grid-row-start-login-form-h2: 1;
 $grid-row-start-login-form-fieldset: 2;

@@ -32,8 +32,7 @@ main {
     }
 
     .search {
-        grid-column-start: $grid-column-start-search;
-        grid-column-end: $grid-column-end-search;
+        grid-column: $grid-column-search;
 
         input {
             margin-top: $margin-top-search-input;
@@ -42,8 +41,7 @@ main {
     }
 
     .sort {
-        grid-column-start: $grid-column-start-sort;
-        grid-column-end: $grid-column-end-sort;
+        grid-column: $grid-column-sort;
 
         select {
             margin-top: $margin-top-sort-select;
@@ -52,7 +50,7 @@ main {
         }
     }
 
-    .card-grid{
+    .card-grid {
         display: grid;
         grid-template-columns: $grid-template-columns;
         gap: $gap;
@@ -60,36 +58,35 @@ main {
     }
 
 
-    .login-form{
+    .login-form {
         display: grid;
         grid-template-columns: $grid-template-columns;
         gap: $gap;
 
-        h2{
+        h2 {
             grid-row-start: $grid-row-start-login-form-h2;
-            grid-column-start: $grid-column-start-login-form-h2;
-            grid-column-end: $grid-column-end-login-form-h2;
+            grid-column: $grid-column-login-form-h2;
             margin-left: $margin-left-login-form-h2;
 
         }
 
-        fieldset{
+        fieldset {
             grid-row-start: $grid-row-start-login-form-fieldset;
-            grid-column-start: $grid-column-start-login-form-fieldset;
-            grid-column-end: $grid-column-end-login-form-fieldset;
+            grid-column: $grid-column-login-form-fieldset-huge;
         }
 
         //Prueba con if
-        input[type="password"],input[type="email"],input[type="text"] {
+        input[type="password"],
+        input[type="email"],
+        input[type="text"] {
             background-color: $background-color-main;
             margin-bottom: $margin-bottom-login-form-input;
         }
     }
 
-    fieldset{
+    fieldset {
         padding: $padding-fieldset;
         border-radius: $border-radius-fieldset;
         border-width: $border-width-fieldset;
     }
 }
-

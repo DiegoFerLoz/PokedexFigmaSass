@@ -9,7 +9,9 @@
     @media (#{$query}) {
       @content;
     }
-  } @else {
+  }
+
+  @else {
     @error "No value found for `#{$breakpoint}` in the `$breakpoints` map.";
   }
 }

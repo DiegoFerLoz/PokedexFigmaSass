@@ -1,65 +1,60 @@
 @use "globals" as *;
 
-.card-grid{
+.card-grid {
 
-    .card{
+    .card {
         background-color: $background-color-card;
         padding: $padding-card;
 
-        img{
+        @include respond-to("large") {
+            background-color: white;
+        }
+
+        img {
             width: $width-card-img;
 
         }
-    
+
     }
 
     //Estoy seguro de que esto se puede hacer con un for.
-    .card:nth-child(1){
-        grid-column-start: $grid-column-start-card1;
-        grid-column-end: $grid-column-end-card1;
-        grid-row-start: $grid-row-start-card1;
-        grid-row-end: $grid-row-end-card1;
+    .card:nth-child(1) {
+        grid-column: $grid-column-card1-huge;
+        grid-row: $grid-row-card1-huge;
     }
-    .card:nth-child(2){
-        grid-column-start: $grid-column-start-card2;
-        grid-column-end: $grid-column-end-card2;
-        grid-row-start: $grid-row-start-card2;
-        grid-row-end: $grid-row-end-card2;
+
+    .card:nth-child(2) {
+        grid-column: $grid-column-card2-huge;
+        grid-row: $grid-row-card2-huge;
     }
-    .card:nth-child(3){
-        grid-column-start: $grid-column-start-card3;
-        grid-column-end: $grid-column-end-card3;
-        grid-row-start: $grid-row-start-card3;
-        grid-row-end: $grid-row-end-card3;
+
+    .card:nth-child(3) {
+        grid-column: $grid-column-card3-huge;
+        grid-row: $grid-row-card3-huge;
     }
-    .card:nth-child(4){
-        grid-column-start: $grid-column-start-card4;
-        grid-column-end: $grid-column-end-card4;
-        grid-row-start: $grid-row-start-card4;
-        grid-row-end: $grid-row-end-card4;
+
+    .card:nth-child(4) {
+        grid-column: $grid-column-card4-huge;
+        grid-row: $grid-row-card4-huge;
     }
-    .card:nth-child(5){
-        grid-column-start: $grid-column-start-card5;
-        grid-column-end: $grid-column-end-card5;
-        grid-row-start: $grid-row-start-card5;
-        grid-row-end: $grid-row-end-card5;
+
+    .card:nth-child(5) {
+        grid-column: $grid-column-card5-huge;
+        grid-row: $grid-row-card5-huge;
     }
-    .card:nth-child(6){
-        grid-column-start: $grid-column-start-card6;
-        grid-column-end: $grid-column-end-card6;
-        grid-row-start: $grid-row-start-card6;
-        grid-row-end: $grid-row-end-card6;
+
+    .card:nth-child(6) {
+        grid-column: $grid-column-card6-huge;
+        grid-row: $grid-row-card6-huge;
     }
-    .card:nth-child(7){
-        grid-column-start: $grid-column-start-card7;
-        grid-column-end: $grid-column-end-card7;
-        grid-row-start: $grid-row-start-card7;
-        grid-row-end: $grid-row-end-card7;
+
+    .card:nth-child(7) {
+        grid-column: $grid-column-card7-huge;
+        grid-row: $grid-row-card7-huge;
     }
-    .card:nth-child(8){
-        grid-column-start: $grid-column-start-card8;
-        grid-column-end: $grid-column-end-card8;
-        grid-row-start: $grid-row-start-card8;
-        grid-row-end: $grid-row-end-card8;
+
+    .card:nth-child(8) {
+        grid-column: $grid-column-card8-huge;
+        grid-row: $grid-row-card8-huge;
     }
 }

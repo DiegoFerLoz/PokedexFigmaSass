@@ -4,14 +4,14 @@ footer {
     background-color: $background-color-footer;
     color: $color-dark;
 
-    .container{
+    .container {
         width: $width-footer-container;
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: $padding-footer;
 
-        i{
+        i {
             margin-left: $margin-left-footer-i;
         }
     }
