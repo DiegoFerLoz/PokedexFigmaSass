@@ -15,6 +15,17 @@ footer {
             width: $width-footer-container-large;
         }
 
+        @include respond-to("medium") {
+            width: $width-footer-container-medium;
+            padding: $padding-footer-medium;
+            display: block;
+            text-align: center;
+
+            >div{
+                margin-top: $margin-top-footer-div;
+            }
+        }
+
         i {
             margin-left: $margin-left-footer-i;
         }

@@ -38,6 +38,7 @@ $width-main-input-select: 100%;
 $width-card-img: 90%;
 $width-footer-container: 70%;
 $width-footer-container-large: 85%;
+$width-footer-container-medium: 90%;
 $width-header-container: 70%;
 $width-header-container-large: 85%;
 
@@ -59,6 +60,7 @@ $padding-button-form: 0.4rem 0;
 $padding-card: 1rem;
 $padding-fieldset: 3rem 5rem;
 $padding-footer: 4rem 0;
+$padding-footer-medium: 2rem 0;
 
 /* Margin */
 $margin-bottom-container-form: 3rem;
@@ -68,6 +70,7 @@ $margin-bottom-header-button-first: 1rem;
 $margin-left-login-form-h2: 1rem;
 $margin-bottom-login-form-input: 2rem;
 $margin-left-footer-i: 24px;
+$margin-top-footer-div: 1rem;
 
 /* Typography */
 $font-family: MergeOne, sans-serif;
@@ -84,11 +87,6 @@ $font-size-paragraph: 1rem;
 $grid-template-columns: repeat(12, 1fr);
 $gap: 1rem;
 
-$grid-column-search-huge: #{2 / 7};
-$grid-column-search-large: #{1 / 7};
-
-$grid-column-sort-huge: #{7 / 12};
-$grid-column-sort-large: #{7 / 13};
 
 /* Huge Grid Variables */
 $grid-column-card1-huge: #{1 / 4};
@@ -109,6 +107,11 @@ $grid-row-card6-huge: #{2 / 3};
 $grid-row-card7-huge: #{2 / 3};
 $grid-row-card8-huge: #{2 / 3};
 
+$grid-column-search-huge: #{2 / 7};
+$grid-column-sort-huge: #{7 / 12};
+
+$grid-column-login-form-fieldset-huge: #{3 / 11};
+
 /* Large GridVariables */
 $grid-column-card1-large: #{1 / 5};
 $grid-column-card2-large: #{5 / 9};
@@ -127,6 +130,11 @@ $grid-row-card5-large: #{2 / 3};
 $grid-row-card6-large: #{2 / 3};
 $grid-row-card7-large: #{3 / 4};
 $grid-row-card8-large: #{3 / 4};
+
+$grid-column-search-large: #{1 / 7};
+$grid-column-sort-large: #{7 / 13};
+
+$grid-column-login-form-fieldset-large: #{2 / 12};
 
 /* Medium GridVariables */
 $grid-column-cardodd-medium: #{1 / 7};
@@ -153,10 +161,11 @@ $grid-row-card6-narrow: #{6 / 7};
 $grid-row-card7-narrow: #{7 / 8};
 $grid-row-card8-narrow: #{8 / 9};
 
-$grid-column-login-form-h2: #{3 / 6};
-$grid-column-login-form-fieldset-huge: #{3 / 11};
-$grid-column-login-form-fieldset-large: #{2 / 12};
+$grid-column-search-narrow: #{1 / 13};
+$grid-column-sort-narrow: #{1 / 13};
 
+
+$grid-column-login-form-h2: #{3 / 6};
 $grid-row-start-login-form-h2: 1;
 $grid-row-start-login-form-fieldset: 2;
 
@@ -165,7 +174,7 @@ $grid-row-start-login-form-fieldset: 2;
 $breakpoints: (
   "large": "max-width: 1154px",
   "medium": "max-width: 800px",
-  "narrow": "max-width: 500px",
+  "narrow": "max-width: 550px",
 );
 
 

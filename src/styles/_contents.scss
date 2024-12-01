@@ -42,6 +42,10 @@ main {
             grid-column: $grid-column-search-large;
         }
 
+        @include respond-to("narrow") {
+            grid-column: $grid-column-search-narrow;
+        }
+
         input {
             margin-top: $margin-top-search-input;
             background-color: $background-color-main;
@@ -53,6 +57,10 @@ main {
 
         @include respond-to("large") {
             grid-column: $grid-column-sort-large;
+        }
+        
+        @include respond-to("narrow") {
+            grid-column: $grid-column-sort-narrow;
         }
 
         select {
