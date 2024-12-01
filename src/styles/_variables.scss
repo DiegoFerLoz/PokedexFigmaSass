@@ -8,6 +8,8 @@
   src: url(assets/MergeOne-Regular.woff) format("woff");
 }
 
+$reset-var: 0;
+
 /* Color */
 $background-color-header: #fa5b43;
 $background-color-body: #494949;
@@ -28,6 +30,7 @@ $color-subtle: #aeb9c7;
 
 /* Sizes */
 $width-header-logo: 7.5rem;
+$width-header-logo-medium: 6rem;
 $width-button-login: 9.375rem;
 $width-button-form: 5.3125rem;
 $width-main: 90%;
@@ -41,8 +44,10 @@ $width-footer-container-large: 85%;
 $width-footer-container-medium: 90%;
 $width-header-container: 70%;
 $width-header-container-large: 85%;
+$width-header-container-medium: 95%;
 
 $height-header-logo: 7.5rem;
+$height-header-logo-medium: 6rem;
 $height-button: 2.8125rem;
 
 $border-radius-main-input-select: 0.3rem;
@@ -59,7 +64,8 @@ $padding-button-login: 0.7rem 0;
 $padding-button-form: 0.4rem 0;
 $padding-card: 1rem;
 $padding-fieldset: 3rem 5rem;
-$padding-fieldset-narrow: 3rem 1rem;
+$padding-fieldset-large: 3rem 3rem;
+$padding-fieldset-narrow: 2rem 1rem;
 $padding-footer: 4rem 0;
 $padding-footer-medium: 2rem 0;
 
@@ -72,6 +78,7 @@ $margin-left-login-form-h2: 1rem;
 $margin-bottom-login-form-input: 2rem;
 $margin-left-footer-i: 24px;
 $margin-top-footer-div: 1rem;
+$margin-right-header-button-first-semi-medium: 1rem;
 
 /* Typography */
 $font-family: MergeOne, sans-serif;
@@ -80,6 +87,7 @@ $font-family-titulo: Rubik Mono One;
 $font-size-h3: 1.625rem;
 $font-size-h2: 2.625rem;
 $font-size-h1: 4.25rem;
+$font-size-h1-narrow: 3.5rem;
 $font-size-button: 1.25rem;
 $font-size-paragraph: 1rem;
 
@@ -172,16 +180,14 @@ $grid-column-sort-narrow: #{1 / 13};
 
 
 
-
-
 $grid-row-start-login-form-h2: 1;
 $grid-row-start-login-form-fieldset: 2;
-
 
 
 $breakpoints: (
   "large": "max-width: 1154px",
   "medium": "max-width: 800px",
+  "semi-medium": "max-width: 700px",
   "narrow": "max-width: 600px",
 );
 

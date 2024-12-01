@@ -19,6 +19,9 @@
 h1 {
     font-size: $font-size-h1;
     font-family: $font-family-titulo;
+    @include respond-to("narrow") {
+        font-size: $font-size-h1-narrow;
+    }
 }
 
 h2 {

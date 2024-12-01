@@ -108,6 +108,7 @@ main {
 
             @include respond-to("large") {
                 grid-column: $grid-column-login-form-fieldset-large;
+                padding: $padding-fieldset-large;
             }
 
             @include respond-to("medium") {

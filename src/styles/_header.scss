@@ -16,14 +16,39 @@ header {
             width: $width-header-container-large;
         }
 
+        @include respond-to("medium") {
+            width: $width-header-container-medium;
+        }
+
+        @include respond-to("semi-medium") {
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+
+            >section{
+                display: flex;
+            }
+        }
+
         img {
             width: $width-header-logo;
             height: $height-header-logo;
+
+            @include respond-to("medium") {
+                width: $width-header-logo-medium;
+                height: $height-header-logo-medium;
+            }
+
+
         }
 
         .btn {
             &:first-child {
                 margin-bottom: $margin-bottom-header-button-first;
+
+                @include respond-to("semi-medium") {
+                    margin-bottom: $reset-var;
+                    margin-right: $margin-right-header-button-first-semi-medium;
+                }
             }
         }
     }
