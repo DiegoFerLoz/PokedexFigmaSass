@@ -85,8 +85,17 @@ main {
 
         h2 {
             grid-row-start: $grid-row-start-login-form-h2;
-            grid-column: $grid-column-login-form-h2;
+            grid-column: $grid-column-login-form-h2-huge;
             margin-left: $margin-left-login-form-h2;
+
+            
+            @include respond-to("large") {
+                grid-column: $grid-column-login-form-h2-large;
+            }
+
+            @include respond-to("medium") {
+                grid-column: $grid-column-login-form-h2-medium;
+            }
 
         }
 
@@ -99,6 +108,14 @@ main {
 
             @include respond-to("large") {
                 grid-column: $grid-column-login-form-fieldset-large;
+            }
+
+            @include respond-to("medium") {
+                grid-column: $grid-column-login-form-fieldset-medium;
+            }
+
+            @include respond-to("narrow") {
+                padding: $padding-fieldset-narrow;
             }
         }
 

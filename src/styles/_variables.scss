@@ -59,6 +59,7 @@ $padding-button-login: 0.7rem 0;
 $padding-button-form: 0.4rem 0;
 $padding-card: 1rem;
 $padding-fieldset: 3rem 5rem;
+$padding-fieldset-narrow: 3rem 1rem;
 $padding-footer: 4rem 0;
 $padding-footer-medium: 2rem 0;
 
@@ -111,6 +112,7 @@ $grid-column-search-huge: #{2 / 7};
 $grid-column-sort-huge: #{7 / 12};
 
 $grid-column-login-form-fieldset-huge: #{3 / 11};
+$grid-column-login-form-h2-huge: #{3 / 6};
 
 /* Large GridVariables */
 $grid-column-card1-large: #{1 / 5};
@@ -135,6 +137,7 @@ $grid-column-search-large: #{1 / 7};
 $grid-column-sort-large: #{7 / 13};
 
 $grid-column-login-form-fieldset-large: #{2 / 12};
+$grid-column-login-form-h2-large: #{2 / 6};
 
 /* Medium GridVariables */
 $grid-column-cardodd-medium: #{1 / 7};
@@ -148,6 +151,9 @@ $grid-row-card5-medium: #{3 / 4};
 $grid-row-card6-medium: #{3 / 4};
 $grid-row-card7-medium: #{4 / 5};
 $grid-row-card8-medium: #{4 / 5};
+
+$grid-column-login-form-fieldset-medium: #{1 / 13};
+$grid-column-login-form-h2-medium: #{1 / 6};
 
 /* Narrow GridVariables */
 $grid-column-card-narrow: #{1 / 13};
@@ -165,7 +171,9 @@ $grid-column-search-narrow: #{1 / 13};
 $grid-column-sort-narrow: #{1 / 13};
 
 
-$grid-column-login-form-h2: #{3 / 6};
+
+
+
 $grid-row-start-login-form-h2: 1;
 $grid-row-start-login-form-fieldset: 2;
 
@@ -174,7 +182,7 @@ $grid-row-start-login-form-fieldset: 2;
 $breakpoints: (
   "large": "max-width: 1154px",
   "medium": "max-width: 800px",
-  "narrow": "max-width: 550px",
+  "narrow": "max-width: 600px",
 );
 
 
