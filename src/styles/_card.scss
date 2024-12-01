@@ -22,6 +22,16 @@
             grid-column: $grid-column-card1-large;
             grid-row: $grid-row-card1-large;
         }
+
+        @include respond-to("medium") {
+            grid-column: $grid-column-cardodd-medium;
+            grid-row: $grid-row-card1-medium;
+        }
+
+        @include respond-to("narrow") {
+            grid-column: $grid-column-card-narrow;
+            grid-row: $grid-row-card1-narrow;
+        }
     }
 
     .card:nth-child(2) {
@@ -31,6 +41,16 @@
         @include respond-to("large") {
             grid-column: $grid-column-card2-large;
             grid-row: $grid-row-card2-large;
+        }
+
+        @include respond-to("medium") {
+            grid-column: $grid-column-cardeven-medium;
+            grid-row: $grid-row-card2-medium;
+        }
+
+        @include respond-to("narrow") {
+            grid-column: $grid-column-card-narrow;
+            grid-row: $grid-row-card2-narrow;
         }
     }
 
@@ -42,6 +62,16 @@
             grid-column: $grid-column-card3-large;
             grid-row: $grid-row-card3-large;
         }
+
+        @include respond-to("medium") {
+            grid-column: $grid-column-cardodd-medium;
+            grid-row: $grid-row-card3-medium;
+        }
+
+        @include respond-to("narrow") {
+            grid-column: $grid-column-card-narrow;
+            grid-row: $grid-row-card3-narrow;
+        }
     }
 
     .card:nth-child(4) {
@@ -51,6 +81,16 @@
         @include respond-to("large") {
             grid-column: $grid-column-card4-large;
             grid-row: $grid-row-card4-large;
+        }
+
+        @include respond-to("medium") {
+            grid-column: $grid-column-cardeven-medium;
+            grid-row: $grid-row-card4-medium;
+        }
+
+        @include respond-to("narrow") {
+            grid-column: $grid-column-card-narrow;
+            grid-row: $grid-row-card4-narrow;
         }
     }
 
@@ -62,6 +102,16 @@
             grid-column: $grid-column-card5-large;
             grid-row: $grid-row-card5-large;
         }
+
+        @include respond-to("medium") {
+            grid-column: $grid-column-cardodd-medium;
+            grid-row: $grid-row-card5-medium;
+        }
+
+        @include respond-to("narrow") {
+            grid-column: $grid-column-card-narrow;
+            grid-row: $grid-row-card5-narrow;
+        }
     }
 
     .card:nth-child(6) {
@@ -71,6 +121,16 @@
         @include respond-to("large") {
             grid-column: $grid-column-card6-large;
             grid-row: $grid-row-card6-large;
+        }
+
+        @include respond-to("medium") {
+            grid-column: $grid-column-cardeven-medium;
+            grid-row: $grid-row-card6-medium;
+        }
+
+        @include respond-to("narrow") {
+            grid-column: $grid-column-card-narrow;
+            grid-row: $grid-row-card6-narrow;
         }
     }
 
@@ -82,6 +142,16 @@
             grid-column: $grid-column-card7-large;
             grid-row: $grid-row-card7-large;
         }
+
+        @include respond-to("medium") {
+            grid-column: $grid-column-cardodd-medium;
+            grid-row: $grid-row-card7-medium;
+        }
+
+        @include respond-to("narrow") {
+            grid-column: $grid-column-card-narrow;
+            grid-row: $grid-row-card7-narrow;
+        }
     }
 
     .card:nth-child(8) {
@@ -91,6 +161,16 @@
         @include respond-to("large") {
             grid-column: $grid-column-card8-large;
             grid-row: $grid-row-card8-large;
+        }
+
+        @include respond-to("medium") {
+            grid-column: $grid-column-cardeven-medium;
+            grid-row: $grid-row-card8-medium;
+        }
+
+        @include respond-to("narrow") {
+            grid-column: $grid-column-card-narrow;
+            grid-row: $grid-row-card8-narrow;
         }
     }
 }
