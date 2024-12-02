@@ -1,13 +1,96 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-    <script type="module" crossorigin src="/assets/index-BVRZUQ7V.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-BmtWQ3nA.css">
-  </head>
-  <body>
-    <div id="app"></div>
-  </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex Figma</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="module" crossorigin src="./assets/main-BxmSJStf.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/main-HEedbTYI.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTE0LjUgMTJhMi41IDIuNSAwIDAgMS01IDBhMi41IDIuNSAwIDAgMSA1IDBtNy41IDBjMCA1LjUyLTQuNDggMTAtMTAgMTBTMiAxNy41MiAyIDEyUzYuNDggMiAxMiAyczEwIDQuNDggMTAgMTBtLTIgMGgtNGMwLTIuMjEtMS43OS00LTQtNHMtNCAxLjc5LTQgNEg0YzAgNC40MSAzLjU5IDggOCA4czgtMy41OSA4LTgiLz48L3N2Zz4="
+                alt="Logo Pokeball">
+            <h1>Pokédex</h1>
+            <section>
+                <a href="login.html" class="btn btn-login">Regístrate</a>
+                <a href="" class="btn btn-login">Iniciar Sesión</a>
+            </section>
+        </div>
+    </header>
+    <main>
+        <section class="container-form">
+            <form action="#" class="search">
+                <label for="search">Buscar por nombre:</label>
+                <input type="text" id="search" name="search" placeholder="Nombre">
+            </form>
+            <form action="#" class="sort">
+                <label for="sort">Ordenar por:</label>
+                <select name="sort" id="sort">
+                    <option>Nombre</option>
+                    <option>Número</option>
+                    <option>Peso</option>
+                    <option>Altura</option>
+                </select>
+            </form>
+        </section>
+
+        <section class="card-grid container">
+            <article class="card">
+                <img src="./assets/001%20Bulbasaur-CFs5Zyd6.png" alt="Bulbasaur">
+                <p>Nº 0001 - Bulbasaur</p>
+            </article>
+            <article class="card">
+                <img src="./assets/002%20Ivysaur-CrQvR5v1.png" alt="Ivysaur">
+                <p>Nº 0002 - Ivysaur</p>
+            </article>
+            <article class="card">
+                <img src="./assets/003%20Venusaur-3nrfmAW_.png" alt="Venusaur">
+                <p>Nº 0003 - Venusaur</p>
+            </article>
+            <article class="card">
+                <img src="./assets/004%20Charmander--oJn6JBA.png" alt="Charmander">
+                <p>Nº 0004 - Charmander</p>
+            </article>
+            <article class="card">
+                <img src="./assets/005%20Charmeleon-AXmRYLVZ.png" alt="Charmeleon">
+                <p>Nº 0005 - Charmeleon</p>
+            </article>
+            <article class="card">
+                <img src="./assets/006%20Charizard-DEqkpiUF.png" alt="Charizard">
+                <p>Nº 0006 - Charizard</p>
+            </article>
+            <article class="card">
+                <img src="./assets/007%20Squirtle-B2vUUmsE.png" alt="Squirtle">
+                <p>Nº 0007 - Squirtle</p>
+            </article>
+            <article class="card">
+                <img src="./assets/008%20Wartortle-yNDurp_9.png" alt="Wartortle">
+                <p>Nº 0008 - Wartortle</p>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <div class="container">
+            <p>Pokédex - IES Azarquiel - Diego Fernández Lozano</p>
+            <div>
+                <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+                <i class="fa fa-youtube-play fa-3x" aria-hidden="true"></i>
+                <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
+                <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
 </html>
